@@ -10,7 +10,7 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class ProdutosService {
 
-  private URL: string = 'https://my-json-server.typicode.com/ronanzenatti/backendAngular';
+  private URL: string = 'https://my-json-server.typicode.com/ronanzenatti/backendAngular/produtos';
 
   constructor(private http: HttpClient, private toastr: ToastrService) { }
 
